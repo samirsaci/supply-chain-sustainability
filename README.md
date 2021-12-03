@@ -37,12 +37,27 @@ Following the protocol the French Environmental Agency Ademe (Link), the formula
 
 ## **Objective**
 
-Based on this formula, we collect and process data to calculate the emissions.
+1. Based on this formula, we collect and process data to calculate the emissions.
 
 <p align="center">
   <img align="center" src="images/data collection.png" width=75%>
 </p>
 <p align="center">Data to be Collected</p>
+
+2. We calculate the unit of measure conversions considering the shipped handling units.
+
+<p align="center">
+  <img align="center" src="images/weight reference.png" width=75%>
+</p>
+<p align="center">Handling Units</p>
+
+3. We add distances by mode and compute the CO2 emissions by order 
+
+<p align="center">
+  <img align="center" src="images/emissions factors.png" width=75%>
+</p>
+<p align="center">Emission by transportation mode</p>
+
 
 
 ## **Exemples of visuals using PowerBI**
