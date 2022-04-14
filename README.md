@@ -13,8 +13,8 @@ Investors have placed an increased emphasis on sustainability of the business wh
 Therefore, more and more organizations invest resources to build capabilities for sustainability reporting and determine the best strategies for a sustainable supply chain.
 
 
-## **Medium Article**
-In this [Medium Article](https://towardsdatascience.com/supply-chain-sustainability-reporting-with-python-161c1f63f267), we will introduce a simple methodology to **report the CO2 emissions of your Distribution Network** using **Python and PowerBI**.
+## **Article**
+In this [Article](https://www.samirsaci.com/supply-chain-sustainability-reporting-with-python/), we will introduce a simple methodology to **report the CO2 emissions of your Distribution Network** using **Python and PowerBI**.
 
 ## **Definition**
 Based on the GHG Protocol corporate standard (Link), greenhouse gas emissions are classified into three scopes:
