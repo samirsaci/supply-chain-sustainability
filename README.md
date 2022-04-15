@@ -15,7 +15,7 @@ Therefore, more and more organizations invest resources to build capabilities fo
 ### Youtube Video
 Find in the link below a short animated explained video to understand the concept behind this solution
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=yodNWnf7PQ0"><img src="https://github.com/samirsaci/sap-automation/blob/main/thumbnail.webp" alt="Explainer Video Link"></a>
+  <a href="https://www.youtube.com/watch?v=yodNWnf7PQ0"><img src="https://github.com/samirsaci/supply-chain-sustainability/blob/main/thumbnail.webp" alt="Explainer Video Link"></a>
 </div>
 
 ## **Article**
