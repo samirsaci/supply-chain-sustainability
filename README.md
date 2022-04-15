@@ -12,6 +12,11 @@ Investors have placed an increased emphasis on sustainability of the business wh
 
 Therefore, more and more organizations invest resources to build capabilities for sustainability reporting and determine the best strategies for a sustainable supply chain.
 
+### Youtube Video
+Find in the link below a short animated explained video to understand the concept behind this solution
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=yodNWnf7PQ0"><img src="https://github.com/samirsaci/sap-automation/blob/main/thumbnail.webp" alt="Explainer Video Link"></a>
+</div>
 
 ## **Article**
 In this [Article](https://www.samirsaci.com/supply-chain-sustainability-reporting-with-python/), we will introduce a simple methodology to **report the CO2 emissions of your Distribution Network** using **Python and PowerBI**.
