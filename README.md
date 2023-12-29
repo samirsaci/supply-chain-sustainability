@@ -19,17 +19,17 @@ Click on the GIF below to access a short explainer video to understand the conce
 </div>
 
 ## **Article**
-In this [Article](https://www.samirsaci.com/supply-chain-sustainability-reporting-with-python/), we will introduce a simple methodology to **report the CO2 emissions of your Distribution Network** using **Python and PowerBI**.
+In this [Article](https://towardsdatascience.com/supply-chain-sustainability-reporting-with-python-161c1f63f267), we will introduce a simple methodology to **report the CO2 emissions of your Distribution Network** using **Python and PowerBI**.
 
 ## **Definition**
 Based on the GHG Protocol corporate standard (Link), greenhouse gas emissions are classified into three scopes:
 
-- Scope 1: direct emissions emissions released to the atmosphere because of company’s activities (Company’s facilities like manufacturing plant/warehouses, company’s vehicles)
+- Scope 1: direct emissions emissions released to the atmosphere because of the company’s activities (Company’s facilities like manufacturing plant/warehouses, company’s vehicles)
 - Scope 2: indirect emissions from the generation of purchased energy
 (purchased electricity, gas, ..)
-- Scope 3: all indirect emissions (out of scope 2) occuring in the value chain of the company (Transportation, Waste of Operations, Business Travels, …)
+- Scope 3: all indirect emissions (out of scope 2) occurring in the value chain of the company (Transportation, Waste of Operations, Business Travels, …)
 
-In this article we will focus our attention on the Scope 3 calculations related to downstream transportation.
+In this article, we will focus on the Scope 3 calculations related to downstream transportation.
 What is the environmental impact of your distribution network?
 
 ## **Formula**
@@ -98,7 +98,7 @@ For each market, which item has the highest environmental impact?
 
 _Financial Insights_
 
-The impacts of your future efforts for CO2 Emissions reductions on the profitability will probably be higher for the customers in PEINE-WOLTORF.
+The impacts of your future efforts for CO2 Emission reductions on profitability will be higher for the customers in PEINE-WOLTORF.
 
 # Code
 This repository code you will find all the code used to explain the concepts presented in the article.
