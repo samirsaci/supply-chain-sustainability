@@ -8,9 +8,9 @@
 
 The demand for transparency in sustainable development from investors and customers has grown over the years.
 
-Investors have placed an increased emphasis on sustainability of the business when assessing the value and resiliency of an organization.
+Investors have placed an increased emphasis on business sustainability when assessing an organization's value and resiliency.
 
-Therefore, more and more organizations invest resources to build capabilities for sustainability reporting and determine the best strategies for a sustainable supply chain.
+Therefore, more organizations are investing resources to build capabilities for sustainability reporting and determine the best strategies for a sustainable supply chain.
 
 ### Youtube Video
 Click on the GIF below to access a short explainer video to understand the concept behind this solution
@@ -104,6 +104,6 @@ The impacts of your future efforts for CO2 Emission reductions on profitability 
 This repository code you will find all the code used to explain the concepts presented in the article.
 
 # About me 🤓
-Senior Supply Chain Engineer with an international experience working on Logistics and Transportation operations. \
+Senior Supply Chain Engineer with international experience working on Logistics and Transportation operations. \
 Have a look at my portfolio: [Data Science for Supply Chain Portfolio](https://samirsaci.com) \
 Data Science for Warehousing📦, Transportation 🚚 and Demand Forecasting 📈 
