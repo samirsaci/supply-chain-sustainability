@@ -2,7 +2,7 @@
 *4 steps to build an ESG reporting focusing CO2 emissions of your Distribution Network*
 
 <p align="center">
-  <img align="center" src="images/intro.png" width=75%>
+  <img alt="The image shows a supply chain sustainability report illustrating CO2 emissions from different transportation methods. A distribution center supplies goods to customers through three routes: (1) via road (120 km), air (1450 km), and road again (700 km); (2) directly by road for 200 km; and (3) through road, sea, and road again. Each mode of transportation highlights the distances, representing the CO2 emissions linked to the transportation network’s sustainability calculated with Python." align="center" src="images/intro.png" width=75%>
 </p>
 <p align="center">Supply Chain Sustainability Reporting</p>
 
@@ -36,7 +36,7 @@ What is the environmental impact of your distribution network?
 Following the protocol the French Environmental Agency Ademe (Link), the formula to estimate the CO2 emissions of transportation is:
 
 <p align="center">
-  <img align="center" src="images/equation.png" width=75%>
+  <img alt="A mathematical formula to calculate CO2 emissions based on emissions factors. The formula is structured as follows: “CO2 Emissions = Distance × Weight × Emission Factor.” This equation calculates the carbon dioxide emissions by multiplying the distance traveled by the weight of the goods transported and the emission factor (representing the rate of emissions per unit of weight and distance). The formula is used in the context of transportation-related emissions calculations." align="center" src="images/equation.png" width=75%>
 </p>
 <p align="center">Formula using Emission Factor</p>
 
@@ -45,21 +45,21 @@ Following the protocol the French Environmental Agency Ademe (Link), the formula
 1. Based on this formula, we collect and process data to calculate the emissions.
 
 <p align="center">
-  <img align="center" src="images/data collection.png" width=75%>
+  <img alt="The image shows a data model for calculating supply chain CO2 emissions. “Master Data” includes item details like net weight. “Shipped Order Lines” contains shipment info (order number, warehouse, customer). “Business Units” holds warehouse data, while “Address Book” lists customer locations. “Distance by Mode” records transport distances (road, sea, air, rail) between warehouses and customers, used for CO2 emission calculations based on shipment and distance data." align="center" src="images/data collection.png" width=75%>
 </p>
 <p align="center">Data to be Collected</p>
 
 2. We calculate the unit of measure conversions considering the shipped handling units.
 
 <p align="center">
-  <img align="center" src="images/weight reference.png" width=75%>
+  <img alt="A flowchart shows three types of order packaging: full pallets, cartons, and individual units. Each order type follows a distinct path for packaging and palletization. For full pallets, the weight reference is the pallet; for cartons, it’s the carton, and for individual units, it’s converted into weight after being packed and palletized. This diagram visualizes how different order types are handled in supply chain processes, with weight reference at each stage of transportation." align="center" src="images/weight reference.png" width=75%>
 </p>
 <p align="center">Handling Units</p>
 
 3. We add distances by mode and compute the CO2 emissions by order 
 
 <p align="center">
-  <img align="center" src="images/emissions factors.png" width=75%>
+  <img alt="" align="center" src="images/emissions factors.png" width=75%>
 </p>
 <p align="center">Emission by transportation mode</p>
 
@@ -69,7 +69,7 @@ Following the protocol the French Environmental Agency Ademe (Link), the formula
 
 ### Bubble map with size = f(CO2 Total)
 <p align="center">
-  <img align="center" src="images/bubble map.png" width=75%>
+  <img alt="A map visualization showing various cities in Europe, marked with blue bubbles. The size of the bubbles represents the total CO2 emissions. Locations include cities in the UK, France, and Germany, illustrating CO2 emissions across different regions of Europe." align="center" src="images/bubble map.png" width=75%>
 </p>
 <p align="center">Bubble Map</p>
 
@@ -79,7 +79,7 @@ You can observe where you have the majority of CO2 emissions (large bubbles) wit
 
 ### Split by Country Destination and Item Code
 <p align="center">
-  <img align="center" src="images/bar chart.png" width=75%>
+  <img alt="" align="center" src="images/bar chart.png" width=75%>
 </p>
 <p align="center">Bar Chart</p>
 
@@ -92,7 +92,7 @@ For each market, which item has the highest environmental impact?
 
 ### CO2 = f(Turnover) by City Destination
 <p align="center">
-  <img align="center" src="images/scatter plot.png" width=75%>
+  <img alt="A bar chart with horizontal bars representing the total CO2 emissions by customer country. Germany has the highest emissions, followed by the United Kingdom, France, Bulgaria, and Mauritania." align="center" src="images/scatter plot.png" width=75%>
 </p>
 <p align="center">Scatter Plot</p>
 
