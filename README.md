@@ -19,7 +19,7 @@ Click on the GIF below to access a short explainer video to understand the conce
 </div>
 
 ## **Article**
-In this [Article](https://medium.com/towards-data-science/supply-chain-sustainability-reporting-with-python-161c1f63f267), we will introduce a simple methodology to **report the CO2 emissions of your Distribution Network** using **Python and PowerBI**.
+In this [Article](https://www.samirsaci.com/supply-chain-sustainability-reporting-with-python/), we will introduce a simple methodology to **report the CO2 emissions of your Distribution Network** using **Python and PowerBI**.
 
 ## **Definition**
 Based on the GHG Protocol corporate standard (Link), greenhouse gas emissions are classified into three scopes:
