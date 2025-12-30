@@ -1,16 +1,18 @@
 # Supply Chain Sustainability Reporting with Python 🌲
-*4 steps to build an ESG reporting focusing CO2 emissions of your Distribution Network*
+*4 steps to build an ESG reporting focusing on CO2 emissions of your Distribution Network*
 
 <p align="center">
-  <img alt="The image shows a supply chain sustainability report illustrating CO2 emissions from different transportation methods. A distribution center supplies goods to customers through three routes: (1) via road (120 km), air (1450 km), and road again (700 km); (2) directly by road for 200 km; and (3) through road, sea, and road again. Each mode of transportation highlights the distances, representing the CO2 emissions linked to the transportation network’s sustainability calculated with Python." align="center" src="images/intro.png" width=75%>
+  <a href="https://www.samirsaci.com/supply-chain-sustainability-reporting-with-python/" target="_blank" rel="noopener noreferrer">
+    <img alt="The image shows a supply chain sustainability report illustrating CO2 emissions from different transportation methods. A distribution center supplies goods to customers through three routes: (1) via road (120 km), air (1450 km), and road again (700 km); (2) directly by road for 200 km; and (3) through road, sea, and road again. Each mode of transportation highlights the distances, representing the CO2 emissions linked to the transportation network’s sustainability calculated with Python." align="center" src="images/intro.png" style="max-width: 75%; height: auto;">
+  </a>
 </p>
 <p align="center">Supply Chain Sustainability Reporting</p>
 
 The demand for transparency in sustainable development from investors and customers has grown over the years.
 
-Investors have placed an increased emphasis on business sustainability when assessing an organization's value and resiliency.
+Investors have placed greater emphasis on business sustainability when assessing an organisation's value and resilience.
 
-Therefore, more organizations are investing resources to build capabilities for sustainability reporting and determine the best strategies for a sustainable supply chain.
+Therefore, more organisations are investing resources to build capabilities for sustainability reporting and determine the best strategies for a sustainable supply chain.
 
 ### Youtube Video
 Click on the GIF below to access a short explainer video to understand the concept behind this solution
@@ -24,19 +26,21 @@ In this [Article](https://www.samirsaci.com/supply-chain-sustainability-reportin
 ## **Definition**
 Based on the GHG Protocol corporate standard (Link), greenhouse gas emissions are classified into three scopes:
 
-- Scope 1: direct emissions emissions released to the atmosphere because of the company’s activities (Company’s facilities like manufacturing plant/warehouses, company’s vehicles)
+- Scope 1: direct emissions released to the atmosphere because of the company’s activities (Company’s facilities like manufacturing plant/warehouses, company’s vehicles)
 - Scope 2: indirect emissions from the generation of purchased energy
-(purchased electricity, gas, ..)
+(purchased electricity, gas,...)
 - Scope 3: all indirect emissions (out of scope 2) occurring in the value chain of the company (Transportation, Waste of Operations, Business Travels, …)
 
-In this article, we will focus on the Scope 3 calculations related to downstream transportation.
+In this article, we focus on Scope 3 calculations for downstream transportation.
 What is the environmental impact of your distribution network?
 
 ## **Formula**
-Following the protocol the French Environmental Agency Ademe (Link), the formula to estimate the CO2 emissions of transportation is:
+Following the protocol of the French Environmental Agency Ademe, the formula to estimate the CO2 emissions of transportation is:
 
 <p align="center">
-  <img alt="A mathematical formula to calculate CO2 emissions based on emissions factors. The formula is structured as follows: “CO2 Emissions = Distance × Weight × Emission Factor.” This equation calculates the carbon dioxide emissions by multiplying the distance traveled by the weight of the goods transported and the emission factor (representing the rate of emissions per unit of weight and distance). The formula is used in the context of transportation-related emissions calculations." align="center" src="images/equation.png" width=75%>
+  <a href="https://www.samirsaci.com/supply-chain-sustainability-reporting-with-python/" target="_blank" rel="noopener noreferrer">
+    <img alt="A mathematical formula to calculate CO2 emissions based on emissions factors. The formula is structured as follows: “CO2 Emissions = Distance × Weight × Emission Factor.” This equation calculates the carbon dioxide emissions by multiplying the distance traveled by the weight of the goods transported and the emission factor (representing the rate of emissions per unit of weight and distance). The formula is used in the context of transportation-related emissions calculations." align="center" src="images/equation.png" style="max-width: 75%; height: auto;">
+  </a>
 </p>
 <p align="center">Formula using Emission Factor</p>
 
@@ -45,21 +49,27 @@ Following the protocol the French Environmental Agency Ademe (Link), the formula
 1. Based on this formula, we collect and process data to calculate the emissions.
 
 <p align="center">
-  <img alt="The image shows a data model for calculating supply chain CO2 emissions. “Master Data” includes item details like net weight. “Shipped Order Lines” contains shipment info (order number, warehouse, customer). “Business Units” holds warehouse data, while “Address Book” lists customer locations. “Distance by Mode” records transport distances (road, sea, air, rail) between warehouses and customers, used for CO2 emission calculations based on shipment and distance data." align="center" src="images/data collection.png" width=75%>
+  <a href="https://www.samirsaci.com/supply-chain-sustainability-reporting-with-python/" target="_blank" rel="noopener noreferrer">
+    <img alt="The image shows a data model for calculating supply chain CO2 emissions. “Master Data” includes item details like net weight. “Shipped Order Lines” contains shipment info (order number, warehouse, customer). “Business Units” holds warehouse data, while “Address Book” lists customer locations. “Distance by Mode” records transport distances (road, sea, air, rail) between warehouses and customers, used for CO2 emission calculations based on shipment and distance data." align="center" src="images/data collection.png" style="max-width: 75%; height: auto;">
+  </a>
 </p>
 <p align="center">Data to be Collected</p>
 
 2. We calculate the unit of measure conversions considering the shipped handling units.
 
 <p align="center">
-  <img alt="A flowchart shows three types of order packaging: full pallets, cartons, and individual units. Each order type follows a distinct path for packaging and palletization. For full pallets, the weight reference is the pallet; for cartons, it’s the carton, and for individual units, it’s converted into weight after being packed and palletized. This diagram visualizes how different order types are handled in supply chain processes, with weight reference at each stage of transportation." align="center" src="images/weight reference.png" width=75%>
+  <a href="https://www.samirsaci.com/supply-chain-sustainability-reporting-with-python/" target="_blank" rel="noopener noreferrer">
+    <img alt="A flowchart shows three types of order packaging: full pallets, cartons, and individual units. Each order type follows a distinct path for packaging and palletization. For full pallets, the weight reference is the pallet; for cartons, it’s the carton, and for individual units, it’s converted into weight after being packed and palletized. This diagram visualizes how different order types are handled in supply chain processes, with weight reference at each stage of transportation." align="center" src="images/weight reference.png" style="max-width: 75%; height: auto;">
+  </a>
 </p>
 <p align="center">Handling Units</p>
 
 3. We add distances by mode and compute the CO2 emissions by order 
 
 <p align="center">
-  <img alt="" align="center" src="images/emissions factors.png" width=75%>
+  <a href="https://www.samirsaci.com/supply-chain-sustainability-reporting-with-python/" target="_blank" rel="noopener noreferrer">
+    <img alt="" align="center" src="images/emissions factors.png" style="max-width: 75%; height: auto;">
+  </a>
 </p>
 <p align="center">Emission by transportation mode</p>
 
@@ -69,17 +79,21 @@ Following the protocol the French Environmental Agency Ademe (Link), the formula
 
 ### Bubble map with size = f(CO2 Total)
 <p align="center">
-  <img alt="A map visualization showing various cities in Europe, marked with blue bubbles. The size of the bubbles represents the total CO2 emissions. Locations include cities in the UK, France, and Germany, illustrating CO2 emissions across different regions of Europe." align="center" src="images/bubble map.png" width=75%>
+  <a href="https://www.samirsaci.com/supply-chain-sustainability-reporting-with-python/" target="_blank" rel="noopener noreferrer">
+    <img alt="A map visualization showing various cities in Europe, marked with blue bubbles. The size of the bubbles represents the total CO2 emissions. Locations include cities in the UK, France, and Germany, illustrating CO2 emissions across different regions of Europe." align="center" src="images/bubble map.png" style="max-width: 75%; height: auto;">
+  </a>
 </p>
 <p align="center">Bubble Map</p>
 
 _Visual Insights_
 
-You can observe where you have the majority of CO2 emissions (large bubbles) with a color coding by transportation mode.
+You can observe where you have the majority of CO2 emissions (large bubbles) with a colour coding by transportation mode.
 
 ### Split by Country Destination and Item Code
 <p align="center">
-  <img alt="" align="center" src="images/bar chart.png" width=75%>
+  <a href="https://www.samirsaci.com/supply-chain-sustainability-reporting-with-python/" target="_blank" rel="noopener noreferrer">
+    <img alt="" align="center" src="images/bar chart.png" style="max-width: 75%; height: auto;">
+  </a>
 </p>
 <p align="center">Bar Chart</p>
 
@@ -92,19 +106,20 @@ For each market, which item has the highest environmental impact?
 
 ### CO2 = f(Turnover) by City Destination
 <p align="center">
-  <img alt="A bar chart with horizontal bars representing the total CO2 emissions by customer country. Germany has the highest emissions, followed by the United Kingdom, France, Bulgaria, and Mauritania." align="center" src="images/scatter plot.png" width=75%>
+  <a href="https://www.samirsaci.com/supply-chain-sustainability-reporting-with-python/" target="_blank" rel="noopener noreferrer">
+    <img alt="A bar chart with horizontal bars representing the total CO2 emissions by customer country. Germany has the highest emissions, followed by the United Kingdom, France, Bulgaria, and Mauritania." align="center" src="images/scatter plot.png" style="max-width: 75%; height: auto;">
+  </a>
 </p>
 <p align="center">Scatter Plot</p>
 
 _Financial Insights_
 
-The impacts of your future efforts for CO2 Emission reductions on profitability will be higher for the customers in PEINE-WOLTORF.
+The impact of your future CO2 emission-reduction efforts on profitability will be greater for customers in PEINE-WOLTORF.
 
 # Code
-This repository code you will find all the code used to explain the concepts presented in the article.
+In this repository, you will find all the code used to explain the concepts presented in the article.
 
 ## About me 🤓
-Senior Supply Chain and Data Science consultant with international experience working on Logistics and Transportation operations. \
-For **consulting or advising** on analytics and sustainable supply chain transformation, feel free to contact me via [Logigreen Consulting](https://www.logi-green.com/). \
-
+Senior Supply Chain and Data Science consultant with international experience working on Logistics and Transportation operations.\
+For **consulting or advising** on analytics and sustainable supply chain transformation, feel free to contact me via [Logigreen Consulting](https://www.logi-green.com/).\
 Please have a look at my personal blog: [Personal Website](https://samirsaci.com)
